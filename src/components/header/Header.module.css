@@ -1,0 +1,30 @@
+.menuWrapper {
+  background-color: #ebe0e9;
+  padding: 0 15px;
+  height: 60px;
+}
+
+.containerMenuLinks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.link {
+  text-decoration: none;
+  color: #2d2e46;
+  padding: 0 20px;
+  border-bottom: 3px solid transparent;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  transition: all 0.2s linear;
+}
+
+.containerMenuLinks .activeLink {
+  background: #dcccdb;
+  border-bottom: 3px solid blue;
+}

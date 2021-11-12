@@ -1,0 +1,28 @@
+.paginator_container {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+.paginator_container span {
+  padding: 5px 10px;
+  margin: 0 2px;
+  cursor: pointer;
+}
+.paginator_container button {
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.select {
+  margin-left: auto;
+}
+
+.selectedPage,
+.paginator:hover {
+  background: #21268f;
+  border-radius: 2px;
+  color: #fff;
+}

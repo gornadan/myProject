@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(0deg, rgb(152, 144, 199) 0%, rgb(230, 212, 222) 100%);
+  background-attachment: fixed;
+}
+
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.App {
+  /* background: linear-gradient(0deg, rgba(152, 144, 199, 1) 0%, rgba(230, 212, 222, 1) 100%); */
+}
+
+.container {
+  padding: 0 20px;
+  margin-top: 20px;
+}

@@ -1,0 +1,144 @@
+.table_container {
+  background: #fefeff;
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  max-width: 1280px;
+  width: 100%;
+  margin: 20px auto;
+}
+
+.table_container_card {
+  background: #fefeff;
+  border-radius: 8px;
+  max-width: 1280px;
+  width: 100%;
+  margin: 20px auto;
+}
+
+.sidebar {
+  background: #ececf9;
+  border-radius: 8px 0 0 8px;
+  padding: 20px;
+}
+
+.table_wrap {
+  padding: 20px 40px;
+}
+
+.tbl_wrap {
+  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+}
+
+.searchbar {
+  position: relative;
+}
+
+.searchbar input {
+  background: #ececf9;
+  opacity: 0.5;
+  border: 1px solid #635d80;
+  box-sizing: border-box;
+  border-radius: 2px;
+  max-width: 400px;
+  width: 100%;
+  height: 30px;
+}
+
+.search_btn {
+  background: #21268f;
+  height: 31px;
+  padding: 0 10px;
+  border-radius: 0 2px 2px 0;
+}
+
+.add_btn {
+  background: #21268f;
+  box-shadow: 0px 4px 18px rgba(33, 38, 143, 0.35), inset 0px 1px 0px rgba(255, 255, 255, 0.3);
+  border-radius: 30px;
+  color: #fefeff;
+  margin-left: 10%;
+  padding: 12px 25px;
+}
+
+.table {
+  margin-top: 15px;
+}
+
+.table_title {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 2fr 2fr;
+  padding: 20px 10px;
+  background: #ececf9;
+  text-align: center;
+  color: #2d2e46;
+  font-weight: bold;
+}
+
+.table_title_card {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.table_line {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+}
+.table_line_card {
+  padding: 20px;
+}
+
+.table_line:nth-child(odd),
+.table_line_card:nth-child(odd) {
+  background: #f8f7fd;
+}
+
+.table_body {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+  width: 80%;
+}
+
+.table_body_card {
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr 1fr;
+  width: 100%;
+  grid-column-gap: 20px;
+}
+
+.delete {
+  background: #f1453d;
+  border-radius: 2px;
+  color: #fefeff;
+  padding: 5px 10px;
+}
+
+.edit {
+  margin: 0 5px;
+}
+
+.edit,
+.learn {
+  background: #d7d8ef;
+  border-radius: 2px;
+  color: #21268f;
+  padding: 5px 10px;
+}
+
+.sort_btns button {
+  background: transparent;
+}
+
+.grade {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rating {
+  color: #d7d8ef;
+}
+
+.rating_color {
+  color: #21268f;
+}

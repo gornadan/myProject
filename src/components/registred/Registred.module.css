@@ -1,0 +1,159 @@
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-image: linear-gradient(
+    to top right,
+    rgb(101, 115, 255),
+    rgb(122, 113, 238),
+    rgb(143, 112, 220),
+    rgb(164, 110, 203),
+    rgb(185, 109, 185),
+    rgb(206, 107, 168),
+    rgb(178, 125, 175),
+    rgb(149, 143, 181),
+    rgb(121, 162, 188),
+    rgb(92, 180, 194),
+    rgb(64, 198, 201),
+    rgb(35, 216, 207)
+  ); */
+  /* background-image: linear-gradient(
+    to top right,
+    rgb(101, 115, 255),
+    rgb(111, 114, 247),
+    rgb(120, 114, 239),
+    rgb(130, 113, 231),
+    rgb(139, 112, 223),
+    rgb(149, 111, 215),
+    rgb(158, 111, 208),
+    rgb(168, 110, 200),
+    rgb(177, 109, 192),
+    rgb(187, 108, 184),
+    rgb(196, 108, 176),
+    rgb(206, 107, 168)
+  ); */
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  max-width: 400px;
+  width: 100%;
+  background: #f9f9fe;
+  border-radius: 8px;
+}
+
+.form h3 {
+  margin: 25px 0;
+}
+
+.form .inputs {
+  margin: 15px 0;
+  border: none;
+  background: transparent;
+  border-bottom: 2px solid #adadb7;
+  max-width: 300px;
+  width: 100%;
+  padding: 5px 15px;
+  box-sizing: border-box;
+}
+
+.form input:focus-visible,
+.form input:focus {
+  outline: none;
+  border-color: black;
+  transition: all 0.8s linear;
+}
+
+.btn_wrap {
+  margin: 40px 0 30px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.btn_wrap button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 40px;
+}
+
+.cancel_btn {
+  background: #d7d8ef;
+  border-radius: 30px;
+  color: #21268f;
+}
+
+.register_btn {
+  background: #21268f;
+  box-shadow: 0px 4px 18px rgba(33, 38, 143, 0.35), inset 0px 1px 0px rgba(255, 255, 255, 0.3);
+  border-radius: 30px;
+  color: #ececf9;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+}
+.block{
+  text-align: center;
+}
+
+@media (max-width: 420px) {
+  .cancel_btn {
+    margin-bottom: 20px;
+  }
+}
+
+
+
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  overflow-y: scroll;
+  padding: 60px 15px;
+}
+
+
+
+.closeButton {
+  float: right;
+  font-weight: bold;
+  font-size: 29px;
+  background: #ff0000;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  /*position: absolute;*/
+  right: 0;
+  top: 0;
+  background: none;
+  cursor: pointer;
+  transition: .3s;
+  outline: none;
+  color: crimson;
+}
+
+.closeButton:hover {
+  transition: .3s;
+  transform: rotate(180deg);
+}

@@ -1,0 +1,20 @@
+.checkbox {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    background: #282c34;
+    cursor: pointer;
+}
+.checkbox:checked{
+    appearance: none;
+    background-image: url("open.png") ;
+
+}
+.checkbox:focus{
+    outline: #61dafb solid 2px;
+}
+
+.spanClassName {
+
+}
